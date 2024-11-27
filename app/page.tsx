@@ -297,7 +297,7 @@ const page = () => {
         </div>
       </section> */}
       {/* Cta Video Section Start */}
-      <div
+      {/* <div
         className="cta-video-section fix bg-cover"
         style={{ backgroundImage: 'url("assets/img/cta/cta-video.jpg")' }}
       >
@@ -354,7 +354,7 @@ const page = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Team Section Start */}
       {/* <section className="team-section fix section-padding" id="team">
         <div className="container">

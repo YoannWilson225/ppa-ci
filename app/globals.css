@@ -8,24 +8,26 @@ Version: 1.0.0
 /*CSS Table Of Content Ends Here*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
-  --body: #fff;
-  --black: #000;
-  --white: #fff;
-  --theme: #5C30FD;
-  --theme-2: #8760FD;
-  --theme-3: #2B2B6B;
-  --theme-4: #ECE6FF;
-  --header: #101828;
-  --base: #5C30FD;
-  --text: #696969;
-  --border: #E6E6E6;
-  --border2: #373737;
-  --ratting: #F8BC26;
-  --bg: #101828;
-  --bg2: #0D0D0D;
-  --bg3: #121416;
-  ---box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
+  --body: #FFFFFF; /* Fond principal - blanc pur */
+  --black: #000000; /* Noir standard pour les contrastes */
+  --white: #FFFFFF; /* Blanc */
+  --theme: #0078D4; /* Bleu principal inspiré du logo */
+  --theme-2: #28A745; /* Vert vif pour les éléments d'accent */
+  --theme-3: #FF9900; /* Orange vif pour des touches dynamiques */
+  --theme-4: #D9F0FF; /* Bleu très pâle pour les arrière-plans subtils */
+  --header: #FFFFFF; /* Blanc pour que le logo ressorte dans la navbar */
+  --base: #0078D4; /* Bleu principal pour les éléments récurrents */
+  --text: #333333; /* Texte gris foncé pour une bonne lisibilité */
+  --border: #DDEAF5; /* Bordures légères et subtiles */
+  --border2: #28A745; /* Bordures ou accents en vert */
+  --ratting: #FF9900; /* Couleur des étoiles ou des éléments interactifs */
+  --bg: #F5F8FB; /* Fond général doux */
+  --bg2: #EAF4FF; /* Bleu pâle pour différencier des sections */
+  --bg3: #FFF3E0; /* Orange pâle pour des sections différenciées */
+  ---box-shadow: 0px 4px 25px rgba(0, 120, 212, 0.1); /* Ombres avec un ton bleu */
 }
+
+
 
 .theme-btn {
   display: inline-block;
@@ -1752,7 +1754,7 @@ input.main-search-input::placeholder {
 }
 
 .header-1 {
-  background: #101828;
+  background: #ffff;
 }
 .header-1 .container-fluid {
   padding: 0 130px;
@@ -1771,7 +1773,8 @@ input.main-search-input::placeholder {
   display: none;
 }
 .header-1 .header-main .main-menu ul li a {
-  color: var(--white);
+  color: var(--black);
+  list-style: none;
 }
 .header-1 .header-main .main-menu ul li a:hover {
   color: var(--theme) !important;
@@ -1782,7 +1785,7 @@ input.main-search-input::placeholder {
   }
 }
 .header-1 .header-main .header-right .sidebar__toggle {
-  color: var(--white);
+  color: var(--black);
   font-size: 30px;
 }
 .header-1 .header-right {
@@ -2435,6 +2438,7 @@ input.main-search-input::placeholder {
   padding: 120px 0;
   position: relative;
 }
+
 .hero-1::before {
   position: absolute;
   top: 0;

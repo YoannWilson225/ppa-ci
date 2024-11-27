@@ -7,15 +7,16 @@ export default function Hero() {
       {" "}
       <section
         className="hero-section hero-1 bg-cover fix"
-        style={{ backgroundImage: 'url("assets/img/hero/01.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/hero/hero.jpg")' }}
       >
         <div className="container">
           <div className="row g-4 justify-content-between">
             <div className="col-lg-6">
               <div className="hero-content">
                 <h1 className="wow fadeInUp" data-wow-delay=".2s">
-                  We Take Care <br />
-                  Your IT Solutions <br /> &amp; Provide Best <br /> Services
+                  Ensemble <br />
+                  on est Plus fort
+                  
                 </h1>
                 <div className="hero-button">
                   <Link
@@ -23,7 +24,7 @@ export default function Hero() {
                     className="theme-btn hover-white wow fadeInUp"
                     data-wow-delay=".4s"
                   >
-                    Get Started Now <i className="far fa-arrow-right" />
+                    ADHÉRER <i className="far fa-arrow-right" />
                   </Link>
                   <Link
                     href="service"
@@ -102,7 +103,7 @@ export default function Hero() {
                     </div>
                     <div className="col-lg-12">
                       <button type="submit" className="theme-btn">
-                        Get Started Now <i className="far fa-arrow-right" />
+                        ADHÉRER <i className="far fa-arrow-right" />
                       </button>
                     </div>
                   </div>
