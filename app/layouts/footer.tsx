@@ -6,11 +6,8 @@ export default function Footer() {
     <>
       <footer className="footer-section footer-bg">
         <div className="container">
-          <div className="discussed-items">
+          {/* <div className="discussed-items">
             <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
-              {/* <Link href="/">
-                <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
-              </Link> */}
               <Link href="/">
                   <img
                     src="assets/img/logo/logo.png"
@@ -30,7 +27,7 @@ export default function Footer() {
                 Get Started <i className="far fa-arrow-right" />
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="footer-widgets-wrapper">
             <div className="row">
               <div

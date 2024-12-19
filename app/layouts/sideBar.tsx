@@ -37,12 +37,14 @@ export default function SideBar({ sidebarToggle, close, menu }: SideBarProps) {
                 <MobileMenu menu={menu} />
               </div>
               <p className="text d-none d-xl-block mb-5">
-                Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                sem semper the is erat, a feugiat leo urna eget eros. Duis
-                Aenean a imperdiet risus.
+                Le Parti des peuples africains – Côte d'Ivoire (PPA-CI), fondé
+                en 2021 par l'ancien président Laurent Gbagbo, défend des
+                valeurs socialistes, panafricanistes et souverainistes. Cette
+                nouvelle formation politique marque un tournant après son retour
+                en Côte d'Ivoire.
               </p>
               <div className="offcanvas__contact">
-                <h4>Contact Info</h4>
+                <h4>Nous contactez</h4>
                 <ul>
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon">
@@ -50,7 +52,7 @@ export default function SideBar({ sidebarToggle, close, menu }: SideBarProps) {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                        Abidjan
                       </a>
                     </div>
                   </li>
@@ -59,10 +61,10 @@ export default function SideBar({ sidebarToggle, close, menu }: SideBarProps) {
                       <i className="fal fa-envelope" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="mailto:info@example.com">ppaci@gmail.com</a>
                     </div>
                   </li>
-                  <li className="d-flex align-items-center">
+                  {/* <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-clock" />
                     </div>
@@ -71,19 +73,19 @@ export default function SideBar({ sidebarToggle, close, menu }: SideBarProps) {
                         Mod-friday, 09am -05pm
                       </a>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:+2250767655615">+225 07 67 65 56 15</a>
                     </div>
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <Link href="contact" className="theme-btn text-center">
-                    Contact Us
+                  <Link href="#" className="theme-btn text-center">
+                    Contacts
                   </Link>
                 </div>
                 <div className="social-icon d-flex align-items-center">

@@ -43,7 +43,7 @@ export default function Header() {
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <div className="icon-items">
-                  <div className="icon">
+                  {/* <div className="icon">
                     <i className="fas fa-phone-alt" />
                   </div>
                   <div className="content">
@@ -51,7 +51,7 @@ export default function Header() {
                     <h4>
                       <a href="tel:+00012345688">+000 (123) 456 88</a>
                     </h4>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="header__hamburger d-xl-block my-auto">
                   <div
